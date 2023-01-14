@@ -12,12 +12,13 @@ class PostImagesController < ApplicationController
   end
 
   def index
+    @post_images = PostImage.all
   end
 
   def show
   end
-  
-  
+
+
 
    # 投稿データのストロングパラメータ
   private
